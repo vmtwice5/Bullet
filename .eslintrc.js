@@ -42,7 +42,6 @@ module.exports = {
             patterns: ['@/features/*/*'],
           },
         ],
-        'linebreak-style': ['error', 'unix'],
         'react/prop-types': 'off',
 
         'import/order': [
@@ -67,8 +66,6 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': ['off'],
         '@typescript-eslint/no-empty-function': ['off'],
         '@typescript-eslint/no-explicit-any': ['off'],
-
-        'prettier/prettier': ['error', {}, { usePrettierrc: true }],
       },
     },
   ],
